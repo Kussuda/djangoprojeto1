@@ -6,5 +6,3 @@ def home(request):
     return render(request, 'recipes/home.html', {
         'name': 'Ryan Shoiti',
     })
-
-
